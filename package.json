@@ -1,0 +1,16 @@
+{
+  "name": "powershell-path-resolver",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resolve PowerShell executable paths with helpful fallbacks.",
+  "type": "module",
+  "bin": {
+    "check-powershell": "./bin/check-powershell.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
